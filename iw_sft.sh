@@ -16,7 +16,7 @@ deepspeed_config="deepspeed_zero3_cpu_offload.yaml"
 echo "Using deepspeed config ${deepspeed_config}"
 #torchrun --nproc-per-node ${gpu_count} --master_port 12345 \
 ACCELERATE_LOG_LEVEL=info accelerate launch --config_file ${deepspeed_config} \
-    sft.py \
+    main.py \
     --block_size=22000 \
     --per_device_train_batch_size=${micro_batch_size} \
     --per_device_eval_batch_size=${micro_batch_size} \
