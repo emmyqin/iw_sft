@@ -4,13 +4,17 @@ Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **
 
 
 ## Overview of the Code
-The code consists of 2 Python scripts and the file `sft.py` contains various parameter settings which are interpreted and described in our paper.
-### Requirements
-- `torch                         1.12.0`
-- `mujoco                        2.2.1`
-- `mujoco-py                     2.1.2.14`
-- `d4rl                          1.1`
+There are two python files, bounding_trainers.py contains iw-sft interpreted and described in our paper. In order to run this code first you need to install requirements.txt. We recommend using uv such as below:
+~~~
+pip install uv
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+~~~
 
 ### Running the code
-- `./sft.sh`: trains the network, storing checkpoints along the way.
-```
+To run this code simply do:
+~~~
+./iw_sft.sh
+~~~
+Make sure to set up your wandb when you first run.
