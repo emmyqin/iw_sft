@@ -4,7 +4,7 @@ Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **
 
 
 ## Overview of the Code
-There are two python files, bounding_trainers.py contains iw-sft interpreted and described in our paper. In order to run this code first you need to install requirements.txt. We recommend using uv such as below:
+There are two python files, bounding_trainers.py contains iw-sft interpreted and described in our paper. In order to run this code, you need 8 GPUs, first you need to install requirements.txt. We recommend using uv such as below:
 ~~~
 pip install uv
 uv venv
