@@ -18,3 +18,10 @@ To run this code simply do:
 ./iw_sft.sh
 ~~~
 Make sure to set up your wandb when you first run.
+
+### Evaluating the code
+This code is cloned from the [S1](https://github.com/simplescaling/s1) repository to run:
+~~~
+cd eval/lm-evaluation-harness
+pip install -e .[math,vllm]
+~~~
