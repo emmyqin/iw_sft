@@ -2,6 +2,7 @@
 
 Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **F**ine **T**uning (iw-SFT). Iw-SFT uses importance weights to adaptively upweight or downweight points during training; we show this provides a much tighter bound to the RL training objective in comparison to SFT alone.
 
+We have also published the model we have trained on Hugging Face: [ChongliQin/iw-SFT-32B](https://huggingface.co/ChongliQin/iw-SFT-32B)
 
 ## Overview of the Code
 There are two python files, bounding_trainers.py contains iw-sft interpreted and described in our paper. In order to run this code, you need 8 GPUs, first you need to install requirements.txt. We recommend using uv such as below:
