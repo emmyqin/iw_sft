@@ -6,6 +6,8 @@ We have also published the model we have trained on Hugging Face: [ChongliQin/iw
 
 For Arxiv check link [here](https://arxiv.org/abs/2507.12856). For blog post check out link [here](https://the-emotional-scientist.ghost.io/supervised-fine-tuning-on-curated-data-is-reinforcement-learning-and-can-be-improved/).
 
+For more general information see [here](https://independentresearch.ai/posts/iwsft/).
+
 ## Overview of the Code
 There are two python files, bounding_trainers.py contains iw-sft interpreted and described in our paper. In order to run this code, you need 8 GPUs, first you need to install requirements.txt. We recommend using uv such as below:
 ~~~
